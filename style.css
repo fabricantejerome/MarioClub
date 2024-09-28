@@ -77,3 +77,39 @@ nav a {
 nav a.active {
     color: red
 }
+
+/* main */
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--red);
+}
+
+main p {
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+main ul {
+    white-space: nowrap;
+    width: 100%;
+}
+
+main li {
+    display: inline-block;
+    width: 50%;
+    transition: transform 0.3s ease;
+}
+
+main li:hover {
+    transform: scale(1.1);
+}
+
+main img {
+    width: 100%;
+}
