@@ -18,6 +18,9 @@ header {
     background: var(--red);
     text-align: center;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header > h1 {
@@ -46,4 +49,31 @@ header > h1 {
 
 .banner h1 span {
     font-size: 5rem;
+}
+
+/* Nav Menu */
+
+nav {
+    background: var(--gray);
+    margin-top: -3px;
+}
+
+nav > ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 24%;
+    padding: 1rem;
+}
+
+nav a {
+    color: black;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: red
 }
