@@ -113,3 +113,36 @@ main li:hover {
 main img {
     width: 100%;
 }
+
+.join {
+    background: var(--gray);
+    text-align: center;
+    padding: 4rem;
+}
+
+.join h2 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+}
+
+.join p {
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.join input[type="email"] {
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-align: center;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    background: var(--red);
+    padding: 1rem 0;
+    color: white;
+}
