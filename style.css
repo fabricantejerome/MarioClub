@@ -205,4 +205,12 @@ footer {
         width: 100%;
         margin-bottom: 1rem;
     }
+
+    .join h2 {
+        font-size: 2rem;
+    }
+
+    .join input[type="email"] {
+        width: 100%;
+    }
 }
